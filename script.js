@@ -179,7 +179,7 @@ window.addEventListener("click", (event) => {
 
 // Initial load
 document.addEventListener("DOMContentLoaded", () => {
-  weatherIcon.src = '/static/assets/default-weather.svg';
+  weatherIcon.src = 'assets/default-weather.svg';
   document.querySelector('.unit').style.display = 'none';
   document.getElementById('highLow').style.display = 'none';
   cityModal.style.display = "flex";
